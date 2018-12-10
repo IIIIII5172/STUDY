@@ -1,4 +1,4 @@
-package com.java.designPattren.adapterPattern;
+package com.java.designPattern.adapterPattern;
 
 public interface Targetable {
 	public void method1();

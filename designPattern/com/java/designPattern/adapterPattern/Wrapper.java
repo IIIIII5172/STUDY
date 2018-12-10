@@ -1,4 +1,4 @@
-package com.java.designPattren.adapterPattern;
+package com.java.designPattern.adapterPattern;
 
 /**
  * 对象的适配器模式

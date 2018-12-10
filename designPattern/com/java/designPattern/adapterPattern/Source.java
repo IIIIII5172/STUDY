@@ -1,4 +1,4 @@
-package com.java.designPattren.adapterPattern;
+package com.java.designPattern.adapterPattern;
 
 public class Source {
 	public void method1(){
