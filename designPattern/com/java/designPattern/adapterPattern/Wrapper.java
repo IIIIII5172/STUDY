@@ -10,7 +10,6 @@ package com.java.designPattern.adapterPattern;
 public class Wrapper implements Targetable{
 	private Source source;
 	public Wrapper(Source source){
-		super();//调用source的构造方法。为啥要调用它的构造？
 		this.source=source;
 	}
 	@Override
