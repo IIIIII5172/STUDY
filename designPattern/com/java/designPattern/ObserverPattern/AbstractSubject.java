@@ -2,10 +2,11 @@ package com.java.designPattern.ObserverPattern;
 
 import java.util.Enumeration;
 import java.util.Vector;
-
+//暂时不知道怎么判断list是否有新增，先用vector和Enumeration了
 public abstract class AbstractSubject implements Subject{
 	
 	private Vector<Observer> vector=new Vector<Observer>();
+//	private List<Observer> list =new ArrayList<Observer>();
 	
 	@Override
 	public void add(Observer observer){
@@ -19,7 +20,6 @@ public abstract class AbstractSubject implements Subject{
 	
 	@Override
 	public void notifyAllObservers() {
-		
 		Enumeration<Observer> enumer=vector.elements();
 		while(enumer.hasMoreElements()){
 			enumer.nextElement().update();

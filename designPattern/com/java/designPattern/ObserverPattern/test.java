@@ -14,5 +14,6 @@ public class test {
 		sb.add(new Observer1());
 		sb.add(new Observer2());
 		sb.operations();
+		
 	}
 }
